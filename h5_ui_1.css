@@ -1,0 +1,44 @@
+body{width: 960px;}
+.wp1
+{
+    margin: 0 10% 0 20%;
+    color: black;
+    background-color: rgb(245, 245, 245);
+}
+.wp1 h1
+{
+    color: navy;background-color: cyan;
+}
+.wp1>h3
+{
+    text-align: center; color: navy; font-weight: bold;
+    background-color: wheat;
+}
+.wp2
+{
+    padding-inline: 10px;
+}
+section
+{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245);
+}
+button
+{
+padding: 0.5em 1em; margin: 0 1em;
+border: 1px solid #ccc; border-radius: 10px;
+background-image: radial-gradient(circle, #fff, #ccc);
+cursor: pointer;
+box-shadow: 2px 2px 2px black;
+}
+ol
+{
+    list-style: disc inside;
+}
+ol>li
+{
+    line-height: 2em;
+    margin: 1em 1em;
+}
